@@ -14,6 +14,7 @@ class WebScreenLayout extends StatelessWidget {
             child: SingleChildScrollView(
               child: Column(
                 children: const <Widget> [
+                  WebScreenLayout(),
                   ContactList(),
                 ],
               ),
